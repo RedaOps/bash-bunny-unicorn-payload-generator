@@ -14,7 +14,7 @@ for ch in ['\"', '\'', '(', ')', '+', '/', ';', ':']:
     if ch in attack:
         attack=attack.replace(ch,"\\"+ch)
 
-print "Finished reading powershell_attack.txt, building payload.txt"
+print("Finished reading powershell_attack.txt, building payload.txt")
 
 try:
     os.remove("payload.txt")
@@ -39,4 +39,4 @@ with open('payload.txt', 'a+') as the_file:
     the_file.write('Q ENTER\n')
     the_file.write('LED FINISH\n')
 
-print "Done. Created payload.txt"
+print("Done. Created payload.txt")
