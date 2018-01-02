@@ -1,4 +1,4 @@
-# Copyright Tudor Gheorghiu, Prodicode Solutions S.R.L.
+# Copyright Tudor Gheorghiu - Prodicode Solutions S.R.L.
 
 import argparse
 import os
